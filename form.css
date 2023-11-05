@@ -1,0 +1,257 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  transition: all 0.4s ease;
+  padding: 8px;
+  display: inline-block;
+  align-items: center;
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav.sticky {
+  padding: 15px 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo a {
+  font-weight: bold;
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  
+}
+
+
+
+.nav-content .nav-links {
+  display: flex;
+}
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 8px;
+}
+.nav-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #616161;
+}
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#About {
+  width: 100%;
+  padding: 5%;
+}
+.nav-links {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.nav-links p {
+  margin: auto;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* footer */
+
+.footer {
+  position: sticky;
+  width: 100%;
+  background: #000000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+  
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.f1
+{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-around;
+  padding: 20px;
+}
+.year
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+.month
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+.date
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+}
+.day
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+ 
+}
+.time
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+.place
+{
+  flex-basis: 33%;
+  flex-shrink: 0;
+}
+.bgname
+{
+  flex-basis: 40%;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.bgfname
+{
+  flex-basis: 40%;
+  flex-shrink: 0;
+  padding-left: 20%;
+}
+.bgplace
+{
+  flex-basis: 40%;
+  padding-top: 20px;
+}
+
+.bride_details{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+ .h41{
+ flex-basis: 100%;
+ }
+
+ .witness_details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  
+}
+ .wname
+{
+  flex-basis: 40%;
+  flex-shrink: 0;
+  padding-left: 20%;
+}
+
+.ubtn{
+    border: 0px solid black;
+  width:86px;
+  height: 20px;
+ 
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.upload_btn
+{
+  flex-basis: 30%;
+  flex-wrap: wrap;
+
+}
+.wplace1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 30%
+}
